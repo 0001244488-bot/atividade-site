@@ -1,0 +1,72 @@
+=<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Linguagens de Programação</title>
+    <body>
+        <header>
+            <nav style="background-color: #333; padding: 10px; text-align: center;">
+                    <a href="index.html">Linguagens</a>
+                    <a href="navegador.html">Navegadores</a>
+                    <a href="softwares.html">Softwares</a>
+        </header>
+</head>
+<body>
+    <h1>Linguagens de Programação</h1>
+        <div class="galeria">
+        <div class="card">
+            <h2>JULIA</h2>
+            <p>O foco da linguagem Julia é o alto desempenho aliado à facilidade de uso para computação científica e análise de dados. Ela foi criada para resolver o "problema das duas linguagens": a necessidade de programar o protótipo em uma linguagem amigável (como Python ou R) e depois reescrever o código em uma linguagem rápida (como C ou C++) para rodar em produção.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhm5MuJMG_XAhLOqPDzjj4bBruavpibnVNlaVoq14tZTaTTFfPy7iBtgk&s=1024" alt="Logo Julia" width="200" height="200">
+        </div>
+        
+        <div class="card">
+            <h2>ERLANG</h2>
+            <p>O foco da linguagem ERLANG é a confiabilidade e a capacidade de lidar com sistemas distribuídos e concorrentes. Desenvolvida pela Ericsson, ela é uma linguagem funcional que se destaca na construção de sistemas de alta disponibilidade e tolerância a falhas.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4qwtrCDX9ax093bNt12iV_FL9hvbApCC77bsChGcSXQ&s=1024" alt="Logo Erlang" width="200" height="190">
+        </div>
+        
+        <div class="card">
+            <h2>F#</h2>
+            <p>O foco da linguagem F# é a robustez, expressividade e segurança na plataforma .NET. Desenvolvida pela Microsoft, ela é uma linguagem fortemente tipada que prioriza a imutabilidade por padrão. O F# ajuda desenvolvedores a resolver problemas complexos com códigos limpos, reduzindo drasticamente erros comuns como o famoso "erro de ponteiro nulo" (NullReferenceException).</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqFrjaZopQLnLn9MZPjZR6QiqHFdAToYtUr5AFMdFXW5n2ze2lAKJ1cqw&s=1024" alt="Logo F#" width="200" height="200">    
+        </div>
+        
+        <div class="card">
+            <h2>LUA</h2>
+            <p>O foco da linguagem LUA é a simplicidade, leveza e flexibilidade. Desenvolvida no Brasil, ela é uma linguagem de script que se destaca em jogos, aplicações embarcadas e extensões de software. O LUA é conhecido por sua sintaxe simples e fácil de aprender, além de ser altamente eficiente em termos de desempenho.</p>
+            <img src="https://play-lh.googleusercontent.com/EXuZ8KOvAA2rABydyPDgN_yB3isCEhas3G64MqWGGAQ33cqpfO8QFdO8Oiwx4mZmUFTJQFqRWx89FEDgk2RV" alt="Logo Lua" width="200" height="200">
+        </div>
+        
+        <div class="card">
+            <h2>RED</h2>
+            <p>O foco da linguagem Red é o desenvolvimento "full-stack" nativo e a criação simplificada de interfaces gráficas (GUI). Ela é uma linguagem moderna fortemente inspirada em REBOL. O grande diferencial do Red é que ele possui sua própria cadeia de compilação completa, gerando binários executáveis minúsculos (de poucos megabytes) e altamente eficientes sem depender de pesadas máquinas virtuais. Ele também inclui a sublinguagem Red/System, que permite programação de baixo nível (estilo C)</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrpqdugwYt0mmARjluKoVQ5TCgKCT_aR6u7Jp-ur42IuVpGLvpF5QvTLDd&s=10 al24" alt="Logo Red" width="200" height="190">
+        </div>
+
+
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #62a1e0;
+        }
+        .card {
+            background: #1c2a3a;
+            border: 1px solid #378add;
+            padding: 24px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(255, 0, 0, 0.05);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 3fr));
+            gap: 24px;
+            max-width: 2200px;
+            margin: 0 auto;
+        }
